@@ -4,7 +4,7 @@ import java.util.stream.IntStream;
 
 public class FizzBuzz {
 
-    int[] range = IntStream.rangeClosed(1, 100).toArray();
+    public int[] range = IntStream.iterate(1, n -> n + 1).limit(100).toArray();
 
     public boolean contains3 (int number){
       while(number > 0)
