@@ -1,10 +1,10 @@
 package com.fizzbuzz;
 
-import java.util.stream.IntStream;
+import java.util.ArrayList;
 
 public class FizzBuzz {
 
-    public int[] range = IntStream.iterate(1, n -> n + 1).limit(100).toArray();
+    ArrayList<String> fizzbuzzArray = new ArrayList<>();
 
     public boolean contains3 (int number){
       while(number > 0)

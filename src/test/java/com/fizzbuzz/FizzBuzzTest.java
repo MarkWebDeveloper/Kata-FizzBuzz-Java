@@ -51,7 +51,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void test_fizzbuzzReplace_returnsFuzzContains3() {
+    public void test_fizzbuzzReplace_returnsFizzContains3() {
         int number = 131;
 
         String word = fizzBuzz.replaceNumber(number);
@@ -60,7 +60,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void test_fizzbuzzReplace_returnsFuzzContains5() {
+    public void test_fizzbuzzReplace_returnsFizzContains5() {
         int number = 151;
 
         String word = fizzBuzz.replaceNumber(number);
